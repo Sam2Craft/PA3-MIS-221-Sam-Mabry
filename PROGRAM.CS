@@ -98,10 +98,7 @@ ____    ____  ______    _______       ___    __     _______.     _______      __
         static void MainMenu(int tokens) // This effectively is my route method, every method below is reachable from this method, and every method below has a path to be able to return to this method.
         {
             WinLossCheck(ref tokens);
-            if (tokens == -1)
-            {
-
-            }
+            
             string MainMenuArt = @"
    	       __																    	                                                           
 .-.__      \ .-.  ___  __														                                                           
